@@ -1,0 +1,701 @@
+{
+  "recipes": [
+    {
+      "id": "recipe2",
+      "title": "Chicken Stir Fry",
+      "description": "Quick Asian-inspired dish",
+      "ingredients": [
+        "500g chicken",
+        "2 cups vegetables",
+        "3 tbsp soy sauce"
+      ],
+      "instructions": [
+        "Slice chicken",
+        "Stir fry",
+        "Add vegetables",
+        "Add sauce"
+      ],
+      "category": "Asian",
+      "servings": 4,
+      "image_url": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400",
+      "video_url": "",
+      "user_id": "user1",
+      "createdAt": "2024-01-02T00:00:00.000Z"
+    },
+    {
+      "id": "recipe3",
+      "title": "Chocolate Chip Cookies",
+      "description": "Classic homemade cookies",
+      "ingredients": [
+        "2 1/4 cups flour",
+        "1 cup butter",
+        "3/4 cup sugar",
+        "2 cups chocolate chips"
+      ],
+      "instructions": [
+        "Preheat oven",
+        "Cream butter",
+        "Add ingredients",
+        "Bake"
+      ],
+      "category": "Dessert",
+      "servings": 24,
+      "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400",
+      "video_url": "",
+      "user_id": "user1",
+      "createdAt": "2024-01-03T00:00:00.000Z"
+    },
+    {
+      "id": "recipe1772363762230",
+      "title": "paneer",
+      "ingredients": [
+        "paneer",
+        "onion"
+      ],
+      "instructions": "rost paneer",
+      "image_url": "blob:http://localhost:5174/a7c99b91-3952-416c-88f1-72f5e0024618",
+      "video_url": "",
+      "category": "",
+      "servings": 1,
+      "forceCreate": false,
+      "createdAt": "2026-03-01T11:16:02.230Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "user1772213856622",
+      "username": "Test User",
+      "email": "test@example.com",
+      "password": "test123",
+      "createdAt": "2026-02-27T17:37:36.622Z"
+    },
+    {
+      "id": "user1772214005610",
+      "username": "shenisetti",
+      "email": "abcd@gmail.com",
+      "password": "112233",
+      "createdAt": "2026-02-27T17:40:05.610Z"
+    },
+    {
+      "id": "user1772214661161",
+      "username": "testuser",
+      "email": "test@test.com",
+      "password": "password123",
+      "createdAt": "2026-02-27T17:51:01.161Z"
+    },
+    {
+      "id": "user1772280266469",
+      "username": "vaishu",
+      "email": "vaishu@gmail.com",
+      "password": "112233",
+      "createdAt": "2026-02-28T12:04:26.469Z"
+    },
+    {
+      "id": "user1772281093093",
+      "username": "vaishali",
+      "email": "vaishali@gmail.com",
+      "password": "112233",
+      "createdAt": "2026-02-28T12:18:13.093Z"
+    },
+    {
+      "id": "user1772299008937",
+      "username": "vaishalishenisett",
+      "email": "vaishalishenisetti@gmail.com",
+      "password": "789456",
+      "createdAt": "2026-02-28T17:16:48.937Z"
+    },
+    {
+      "id": "user1772302967603",
+      "username": "12",
+      "email": "1@gmail.com",
+      "password": "123456789",
+      "createdAt": "2026-02-28T18:22:47.603Z"
+    },
+    {
+      "id": "user1772363511378",
+      "username": "vaishali",
+      "email": "sheni@gmail.com",
+      "password": "778899",
+      "createdAt": "2026-03-01T11:11:51.378Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "comment1772280944192",
+      "recipeId": "recipe1",
+      "text": "jvvnn",
+      "userId": "user1772280266469",
+      "createdAt": "2026-02-28T12:15:44.193Z"
+    },
+    {
+      "id": "comment1772299048534",
+      "recipeId": "recipe2",
+      "text": "great",
+      "userId": "user1772299008937",
+      "createdAt": "2026-02-28T17:17:28.534Z"
+    },
+    {
+      "id": "comment1772299849295",
+      "recipeId": "recipe2",
+      "text": "vbn",
+      "userId": "user1772299008937",
+      "createdAt": "2026-02-28T17:30:49.295Z"
+    },
+    {
+      "id": "comment1772363560225",
+      "recipeId": "recipe2",
+      "text": "great",
+      "userId": "user1772363511378",
+      "createdAt": "2026-03-01T11:12:40.225Z"
+    }
+  ],
+  "ratings": [
+    {
+      "id": "rating1772289113902",
+      "recipeId": "test123",
+      "userId": "testuser",
+      "value": 5,
+      "createdAt": "2026-02-28T14:31:53.902Z"
+    },
+    {
+      "id": "rating1772289136986",
+      "recipeId": "recipe2",
+      "value": 4,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T14:32:16.986Z"
+    },
+    {
+      "id": "rating1772289214827",
+      "recipeId": "test123",
+      "userId": "testuser",
+      "value": 5,
+      "createdAt": "2026-02-28T14:33:34.827Z"
+    },
+    {
+      "id": "rating1772289773873",
+      "recipeId": "test123",
+      "userId": "testuser",
+      "value": 5,
+      "createdAt": "2026-02-28T14:42:53.873Z"
+    },
+    {
+      "id": "rating1772296507443",
+      "recipeId": "recipe2",
+      "value": 3,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:35:07.443Z"
+    },
+    {
+      "id": "rating1772296510805",
+      "recipeId": "recipe2",
+      "value": 4,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:35:10.805Z"
+    },
+    {
+      "id": "rating1772296525319",
+      "recipeId": "recipe3",
+      "value": 4,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:35:25.319Z"
+    },
+    {
+      "id": "rating1772296530865",
+      "recipeId": "recipe3",
+      "value": 5,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:35:30.865Z"
+    },
+    {
+      "id": "rating1772296563233",
+      "recipeId": "recipe3",
+      "value": 3,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:36:03.234Z"
+    },
+    {
+      "id": "rating1772296747683",
+      "recipeId": "recipe2",
+      "value": 3,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:39:07.683Z"
+    },
+    {
+      "id": "rating1772296928778",
+      "recipeId": "recipe2",
+      "value": 4,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:42:08.778Z"
+    },
+    {
+      "id": "rating1772297171218",
+      "recipeId": "recipe2",
+      "value": 4,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:46:11.218Z"
+    },
+    {
+      "id": "rating1772297173774",
+      "recipeId": "recipe2",
+      "value": 5,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:46:13.774Z"
+    },
+    {
+      "id": "rating1772297242496",
+      "recipeId": "recipe2",
+      "value": 5,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:47:22.496Z"
+    },
+    {
+      "id": "rating1772297335224",
+      "recipeId": "recipe2",
+      "value": 1,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:48:55.224Z"
+    },
+    {
+      "id": "rating1772297406669",
+      "recipeId": "recipe2",
+      "value": 4,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:50:06.669Z"
+    },
+    {
+      "id": "rating1772297414966",
+      "recipeId": "recipe2",
+      "value": 4,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:50:14.966Z"
+    },
+    {
+      "id": "rating1772297446573",
+      "recipeId": "recipe2",
+      "value": 3,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:50:46.573Z"
+    },
+    {
+      "id": "rating1772297727963",
+      "recipeId": "recipe2",
+      "value": 4,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:55:27.963Z"
+    },
+    {
+      "id": "rating1772297792166",
+      "recipeId": "recipe2",
+      "value": 4,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:56:32.166Z"
+    },
+    {
+      "id": "rating1772297794240",
+      "recipeId": "recipe2",
+      "value": 5,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T16:56:34.240Z"
+    },
+    {
+      "id": "rating1772298160982",
+      "recipeId": "recipe2",
+      "value": 3,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T17:02:40.982Z"
+    },
+    {
+      "id": "rating1772298572255",
+      "recipeId": "recipe2",
+      "value": 3,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T17:09:32.255Z"
+    },
+    {
+      "id": "rating1772298574801",
+      "recipeId": "recipe2",
+      "value": 4,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T17:09:34.801Z"
+    },
+    {
+      "id": "rating1772298593020",
+      "recipeId": "recipe2",
+      "value": 4,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T17:09:53.020Z"
+    },
+    {
+      "id": "rating1772298686795",
+      "recipeId": "recipe2",
+      "value": 4,
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T17:11:26.795Z"
+    },
+    {
+      "id": "rating1772299040642",
+      "recipeId": "recipe2",
+      "value": 4,
+      "userId": "user1772299008937",
+      "createdAt": "2026-02-28T17:17:20.642Z"
+    },
+    {
+      "id": "rating1772299043000",
+      "recipeId": "recipe2",
+      "value": 4,
+      "userId": "user1772299008937",
+      "createdAt": "2026-02-28T17:17:23.000Z"
+    },
+    {
+      "id": "rating1772299138344",
+      "recipeId": "recipe2",
+      "value": 3,
+      "userId": "user1772299008937",
+      "createdAt": "2026-02-28T17:18:58.344Z"
+    },
+    {
+      "id": "rating1772299844606",
+      "recipeId": "recipe2",
+      "value": 4,
+      "userId": "user1772299008937",
+      "createdAt": "2026-02-28T17:30:44.606Z"
+    },
+    {
+      "id": "rating1772363553925",
+      "recipeId": "recipe2",
+      "value": 4,
+      "userId": "user1772363511378",
+      "createdAt": "2026-03-01T11:12:33.925Z"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "fav1772280272870",
+      "userId": "user1772280266469",
+      "recipeId": "recipe1",
+      "createdAt": "2026-02-28T12:04:32.870Z"
+    },
+    {
+      "id": "fav1772281170573",
+      "userId": "user1772281093093",
+      "recipeId": "recipe1",
+      "createdAt": "2026-02-28T12:19:30.573Z"
+    },
+    {
+      "id": "fav1772286169680",
+      "userId": "user1772214005610",
+      "recipeId": "recipe3",
+      "createdAt": "2026-02-28T13:42:49.680Z"
+    },
+    {
+      "id": "fav1772287972579",
+      "userId": "user1772281093093",
+      "recipeId": "recipe1772280663638",
+      "createdAt": "2026-02-28T14:12:52.579Z"
+    },
+    {
+      "id": "fav1772289822543",
+      "userId": "testuser",
+      "recipeId": "test123",
+      "createdAt": "2026-02-28T14:43:42.543Z"
+    },
+    {
+      "id": "fav1772296738989",
+      "userId": "user1772281093093",
+      "recipeId": "recipe2",
+      "createdAt": "2026-02-28T16:38:58.989Z"
+    },
+    {
+      "id": "fav1772299037175",
+      "userId": "user1772299008937",
+      "recipeId": "recipe2",
+      "createdAt": "2026-02-28T17:17:17.175Z"
+    },
+    {
+      "id": "fav1772303005824",
+      "userId": "user1772302967603",
+      "recipeId": "recipe2",
+      "createdAt": "2026-02-28T18:23:25.824Z"
+    }
+  ],
+  "mealPlans": [
+    {
+      "id": "meal1772280300147",
+      "name": "festival",
+      "meals": {},
+      "createdAt": "2026-02-28T12:05:00.147Z"
+    },
+    {
+      "id": "meal1772280384540",
+      "name": "festival",
+      "meals": {},
+      "createdAt": "2026-02-28T12:06:24.540Z"
+    },
+    {
+      "id": "meal1772281155713",
+      "name": "b",
+      "meals": {},
+      "createdAt": "2026-02-28T12:19:15.713Z"
+    },
+    {
+      "id": "meal1772282400626",
+      "name": "jhbz",
+      "meals": {},
+      "createdAt": "2026-02-28T12:40:00.626Z"
+    },
+    {
+      "id": "meal1772283732778",
+      "name": "hghg",
+      "meals": {},
+      "createdAt": "2026-02-28T13:02:12.778Z"
+    },
+    {
+      "id": "meal1772283747779",
+      "name": "mbbm,",
+      "meals": {},
+      "createdAt": "2026-02-28T13:02:27.779Z"
+    },
+    {
+      "id": "meal1772287175661",
+      "name": "xx",
+      "meals": {
+        "Wednesday": {
+          "Lunch": {
+            "recipeId": "recipe1772280663638",
+            "recipeName": "jhhjm"
+          },
+          "Breakfast": {
+            "recipeId": "recipe3",
+            "recipeName": "Chocolate Chip Cookies"
+          }
+        }
+      },
+      "createdAt": "2026-02-28T13:59:35.661Z"
+    },
+    {
+      "id": "meal1772287312783",
+      "name": "festival",
+      "meals": {
+        "Tuesday": {
+          "Breakfast": {
+            "recipeId": "recipe1772280663638",
+            "recipeName": "jhhjm"
+          }
+        }
+      },
+      "createdAt": "2026-02-28T14:01:52.783Z"
+    },
+    {
+      "id": "meal1772287507723",
+      "name": "ebb ",
+      "meals": {
+        "Wednesday": {
+          "Lunch": {
+            "recipeId": "recipe3",
+            "recipeName": "Chocolate Chip Cookies"
+          },
+          "Dinner": {
+            "recipeId": "recipe1772280663638",
+            "recipeName": "jhhjm"
+          }
+        }
+      },
+      "createdAt": "2026-02-28T14:05:07.723Z"
+    },
+    {
+      "id": "meal1772287522105",
+      "name": "ebb ",
+      "meals": {
+        "Wednesday": {
+          "Lunch": {
+            "recipeId": "recipe3",
+            "recipeName": "Chocolate Chip Cookies"
+          }
+        }
+      },
+      "createdAt": "2026-02-28T14:05:22.105Z"
+    },
+    {
+      "id": "meal1772287894284",
+      "name": "nb",
+      "meals": {
+        "Wednesday": {
+          "Lunch": {
+            "recipeId": "recipe3",
+            "recipeName": "Chocolate Chip Cookies"
+          }
+        },
+        "Thursday": {
+          "Lunch": {
+            "recipeId": "recipe2",
+            "recipeName": "Chicken Stir Fry"
+          }
+        }
+      },
+      "createdAt": "2026-02-28T14:11:34.284Z"
+    },
+    {
+      "id": "meal1772288271870",
+      "name": "vaishali",
+      "meals": {
+        "Tuesday": {
+          "Breakfast": {
+            "recipeId": "recipe3",
+            "recipeName": "Chocolate Chip Cookies"
+          }
+        },
+        "Wednesday": {
+          "Breakfast": {
+            "recipeId": "recipe3",
+            "recipeName": "Chocolate Chip Cookies"
+          }
+        }
+      },
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T14:17:51.870Z"
+    },
+    {
+      "id": "meal1772288284252",
+      "name": "fdgh",
+      "meals": {
+        "Tuesday": {
+          "Lunch": {
+            "recipeId": "recipe2",
+            "recipeName": "Chicken Stir Fry"
+          }
+        }
+      },
+      "userId": "user1772281093093",
+      "createdAt": "2026-02-28T14:18:04.252Z"
+    },
+    {
+      "id": "meal1772299083184",
+      "name": "special day",
+      "meals": {
+        "Monday": {
+          "Breakfast": {
+            "recipeId": "recipe2",
+            "recipeName": "Chicken Stir Fry"
+          }
+        }
+      },
+      "userId": "user1772299008937",
+      "createdAt": "2026-02-28T17:18:03.184Z"
+    },
+    {
+      "id": "meal1772299862983",
+      "name": "nbs",
+      "meals": {
+        "Tuesday": {
+          "Breakfast": {
+            "recipeId": "recipe2",
+            "recipeName": "Chicken Stir Fry"
+          }
+        }
+      },
+      "userId": "user1772299008937",
+      "createdAt": "2026-02-28T17:31:02.983Z"
+    },
+    {
+      "id": "meal1772302980245",
+      "name": "nbb",
+      "meals": {
+        "Tuesday": {
+          "Breakfast": {
+            "recipeId": "recipe3",
+            "recipeName": "Chocolate Chip Cookies"
+          }
+        }
+      },
+      "userId": "user1772302967603",
+      "createdAt": "2026-02-28T18:23:00.245Z"
+    },
+    {
+      "id": "meal1772302991534",
+      "name": " b ",
+      "meals": {},
+      "userId": "user1772302967603",
+      "createdAt": "2026-02-28T18:23:11.534Z"
+    },
+    {
+      "id": "meal1772363626214",
+      "name": "special ocassion",
+      "meals": {
+        "Monday": {
+          "Breakfast": {
+            "recipeId": "recipe2",
+            "recipeName": "Chicken Stir Fry"
+          }
+        }
+      },
+      "userId": "user1772363511378",
+      "createdAt": "2026-03-01T11:13:46.214Z"
+    }
+  ],
+  "forumPosts": [
+    {
+      "id": "post1772280339654",
+      "title": "",
+      "content": "grateful ",
+      "category": "General",
+      "createdAt": "2026-02-28T12:05:39.654Z",
+      "replies": [
+        {
+          "id": "reply1772280584198",
+          "content": "nnm",
+          "createdAt": "2026-02-28T12:09:44.198Z"
+        },
+        {
+          "id": "reply1772290585829",
+          "content": "nun\n",
+          "createdAt": "2026-02-28T14:56:25.829Z"
+        }
+      ],
+      "likes": 22
+    },
+    {
+      "id": "post1772363697829",
+      "title": "",
+      "content": "bake the cake using oven",
+      "category": "Tips & Tricks",
+      "createdAt": "2026-03-01T11:14:57.829Z",
+      "replies": [],
+      "likes": 1
+    }
+  ],
+  "collaborations": [
+    {
+      "id": "collab1772289679898",
+      "recipeId": "test123",
+      "userId": "testuser",
+      "role": "editor",
+      "email": "test@example.com",
+      "createdAt": "2026-02-28T14:41:19.898Z",
+      "status": "pending"
+    },
+    {
+      "id": "collab1772290649046",
+      "recipeId": "recipe2",
+      "userId": "vaishalishenisetti",
+      "role": "owner",
+      "createdAt": "2026-02-28T14:57:29.046Z",
+      "status": "pending"
+    },
+    {
+      "id": "collab1772296548047",
+      "recipeId": "recipe3",
+      "userId": "vaishalishenisetti",
+      "role": "editor",
+      "createdAt": "2026-02-28T16:35:48.047Z",
+      "status": "pending"
+    },
+    {
+      "id": "collab1772363580987",
+      "recipeId": "recipe2",
+      "userId": "shenisettivaishali",
+      "role": "editor",
+      "createdAt": "2026-03-01T11:13:00.987Z",
+      "status": "pending"
+    }
+  ]
+}
