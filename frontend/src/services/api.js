@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://recipe-sharing-full-stack.onrender.com",
+  baseURL: "https://recipe-sharing-full-stack.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
